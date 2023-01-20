@@ -2,7 +2,7 @@ import React from 'react'
 
 const Login = () => {
   return (
-    <div className = 'auth' >
+    <div className='auth'>
       <h1>Login</h1>
       <form>
         <input type="text" placeholder='username' />
