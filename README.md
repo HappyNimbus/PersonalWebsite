@@ -1,2 +1,0 @@
-# PersonalWebsite
-Fullstack development practice.
