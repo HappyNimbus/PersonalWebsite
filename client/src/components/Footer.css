@@ -1,0 +1,7 @@
+.containerFoot{
+    display:flex;
+    width: 1024px;
+    padding: 10px 1px;
+    justify-content:center;
+    margin-left: 200px
+}
