@@ -1,7 +1,31 @@
 .container{
     display:flex;
-    width: 1024px;
-    padding: 10px 1px;
+    max-width: 100%;
     justify-content: space-between;
-    margin-left: 200px
+    border: dotted green;
+    padding-right: 9vmin;
+    padding-left: 9vmin;
+
+}
+.navbar{
+    width: 100%;
+    border: dotted
+}
+
+.logo{
+
+}
+.size{
+    height:15vmin;
+    width: 15vmin;
+}
+
+.links{
+    display: flex;
+    gap: 2vmin;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
 }
