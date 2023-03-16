@@ -9,15 +9,23 @@ const Navbar = () => {
            <img className = 'size' src = {Logo} alt = "" />
            </div>
           <div className="links">
-            <Link className = "link" to = "/?cat=art">
-                <h6>ART</h6>
-              </Link>
-            <Link className = "link" to = "/?cat=test">
-              <h6>TEST</h6>
+            <Link className = "link" to = "/?cat=games">
+              <h6>Games</h6>
             </Link>
-            <Link className = "link" to = "/?cat=meme">
-              <h6>MEME</h6>
+            <Link className = "link" to = "/?cat=projects">
+              <h6>Projects</h6>
             </Link>
+            <Link className = "link" to = "/?cat=aboutme">
+              <h6>About Me</h6>
+            </Link>
+            <Link className = "link" to = "/?cat=devlog">
+              <h6>Dev Log</h6>
+            </Link>
+            <span> Max </span>
+            <span> Logout</span>
+            <span className="write">
+              <Link className = "link"to = "/write"> Write </Link>
+            </span>
           </div>
         </div>
   )

@@ -1,12 +1,13 @@
 import React from 'react'
 import './Footer.css';
+import Logo from "../images/logo.png"
 const Footer = () => {
   return (
-    <div className = 'footer'>
-        <div className = 'containerFoot'>
-          <div className="logo"> footer</div>
-        </div>
-    </div>
+    <footer>
+      <img className = "sizeF" src = {Logo} alt="" />
+      <span> Made by Maksim Kolotev</span>
+    </footer>
+
   )
 }
 

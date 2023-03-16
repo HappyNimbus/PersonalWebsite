@@ -4,3 +4,18 @@
     padding: 10px 1px;
     justify-content:center;
 }
+
+footer{
+    margin-top: 3vmin;
+    border: dotted green;
+    background-color: lightsteelblue;
+    padding: 1vmin;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sizeF{
+    height: 5vmin;
+    width: 5vmin;
+
+}

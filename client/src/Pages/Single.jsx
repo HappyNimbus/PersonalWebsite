@@ -2,7 +2,7 @@ import React from 'react'
 
 const Single = () => {
   return (
-    <div>This is single</div>
+    <div className = 'single'>This is single</div>
   )
 }
 

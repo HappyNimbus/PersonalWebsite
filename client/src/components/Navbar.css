@@ -1,5 +1,6 @@
 .container{
     display:flex;
+    background-color:lightsteelblue;
     max-width: 100%;
     justify-content: space-between;
     border: dotted green;
@@ -13,19 +14,53 @@
 }
 
 .logo{
-
 }
 .size{
-    height:15vmin;
-    width: 15vmin;
+    height:10vmin;
+    width: 10vmin;
 }
 
 .links{
     display: flex;
     gap: 2vmin;
+    align-items: center;
+
+}
+
+.links h6{
+    font-size: 13px;
 }
 
 .link{
     text-decoration: none;
     color: inherit;
 }
+span{
+    cursor: pointer;
+}
+
+.write{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.write :hover{
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:white;
+    border: 1px solid darkcyan;
+}
+
+/*
+25:11
+*/
